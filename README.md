@@ -1,36 +1,54 @@
 🩺 HealthVault – Digital Health Record Manager
-HealthVault is a comprehensive digital health record management system designed to bridge the gap between patients, doctors, and diagnostics. It simplifies the process of uploading, accessing, and sharing medical records securely and efficiently.
+
+HealthVault is a comprehensive digital health record management system designed to connect patients, doctors, and diagnostic centers seamlessly. It simplifies uploading, accessing, and securely sharing medical records — ensuring efficiency and confidentiality.
 
 🚀 Project Overview
-HealthVault provides an integrated platform for three main user roles:
 
-Patients can upload, access, and manage their medical reports.
-Doctors can view patient records using a secure OTP-based access and can add their own prescriptions.
-Diagnostics can upload reports but cannot view patient data, ensuring confidentiality.
-💡 Innovation & Distinction
-🔐 Role-Based Data Access: Unique permission sets for Patients, Doctors, and Diagnostics ensure data privacy.
-📲 OTP-Based Secure Sharing: Doctors access records through one-time secure links.
-📊 Smart Record Management: Patients can search, filter, and organize their medical history.
-🌐 Lightweight & Dev-Friendly: Uses JSON Server for simulating database operations — no setup overhead for DBMS.
+HealthVault provides an integrated platform tailored for three user roles:
+
+Patients – Upload, access, and manage their medical records.
+
+Doctors – View patient records via secure OTP-based access and add prescriptions.
+
+Diagnostics – Upload lab reports without viewing patient data, maintaining strict privacy.
+
+💡 Innovation & Key Features
+
+🔐 Role-Based Access Control – Separate permissions for Patients, Doctors, and Diagnostics to protect sensitive data.
+
+📲 OTP-Based Secure Sharing – Doctors receive one-time links to access records safely.
+
+📊 Smart Record Management – Patients can search, filter, and organize their entire medical history.
+
+🌐 Lightweight & Developer-Friendly – Uses JSON Server as a mock backend, removing complex DBMS setup.
+
 🧩 Tech Stack
 Frontend
+
 React.js
-Tailwind CSS / Bootstrap (if used)
+
+Tailwind CSS (or Bootstrap, if used)
+
 Axios
+
 Backend
+
 Node.js
+
 Express.js
-JSON Server (fake API for development)
+
+JSON Server (for development as a fake API)
+
 🏗️ Folder Structure
- HealthVault/ 
-  ├── Frontend/   # React frontend │ 
-      ├── public/ │ 
-             └── src/ │ 
-             ├── components/ │ 
-             ├── pages/ │ 
-             └── App.js │ 
-  ├── backend/ # Express backend │ 
-  ├── controllers/ │ 
-  ├── routes/ │ 
-  ├── db.json # Fake JSON database │ 
-  └── index.js # Entry point │ 
+HealthVault/
+├── frontend/ # React frontend
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ ├── pages/
+│ └── App.js
+├── backend/ # Express backend
+│ ├── controllers/
+│ ├── routes/
+│ ├── db.json # Fake JSON database
+│ └── index.js # Entry point
